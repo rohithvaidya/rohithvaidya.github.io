@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>About Rohith Vaidyanathan</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <h1>Rohith Vaidyanathan<a href="#"></a></h1>
+        <div class="slogan">#Design for 2099</div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="labs.html">Labs/ Organisations</a></li>
+          <li><a href="certs.html">Publications/ Certs</a></li>
+          <li><a href="connect.html">Connect</a></li>
+         </ul>
+      </div>
+    </div>
+
+
+    <div id="site_content">
+      <div id="sidebar_container">
+      <img src = "./images/cipd_logo.jpg" height="150" width="200">
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Hey !</h1>
+
+        <p> <justify>My major in computer science/ algorithms with couple of product internships and an entrepreneurial bug bite taught me that novel, inclusive engineering designs in conjunction with digital fabrication can lead to innovative products and also help build sustainable structures. <br><br>As we move into the next digital industrial revolution, design softwares must act as a companion for designers given the high computational power we have. I am excited to be researching the latest advances in the field which will help build the next generation of design softwares to obtain novel product designs.
+
+<br><br>It also turns out that nature, which is slowly disappearing, has some tough lessons in store. Thus, my research lies at the intersection of computational geometry/ mechanics, bio-morphologies and structural design. 
+
+</justify>
+          <div class="slideshow-container">
+<br><br><br>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="./images/a.jpeg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="./images/4.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="./images/2.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+      </div>
+    </div>
+
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+    <div id="footer">
+      <p></a></p>
+    </div>
+  </div>
+</body>
+</html>
